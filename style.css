@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    min-height: 100vh;
+
+}
+.div2{
+    background-color: blueviolet;
+}
+.mostrador{
+    background: blue;
+}
+.projetos{
+    background-color: aquamarine;
+}
