@@ -1,22 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@100&family=Six+Caps&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-
+.parag1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 50px;
+    width: 320px;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.861);
+    font-family: 'Genos', sans-serif;
+    font-size: 22px;
+}
 .div1{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: green;
+    background-color: rgba(0, 0, 0, 0.883);
     min-height: 100vh;
 
 }
 .div2{
-    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 560px;
+    width: 1200px;
 }
 .mostrador{
-    background: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 1100px;
+    gap: 10px;
+}
+.imagem {
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.imagem:hover{
+    box-shadow: 2px 2px 20px 2px white;
+    transition: 0.3s;
 }
 .projetos{
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    width: 150px;
+}
+.projetos p{
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Prosto One', cursive;
+    color: white;
+}
+.divm{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-top: 15px;
 }
